@@ -6,3 +6,5 @@ class Chat:
         self.x += nombreCases
     def reculer(self, nombreCases):
         self.x -= nombreCases
+    def manger(self, plateau):
+        plateau.contenu[self.x] = str(self.x)

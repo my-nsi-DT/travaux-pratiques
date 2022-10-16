@@ -1,8 +1,12 @@
+from plateaux import Plateau1 as Plateau
 from chat import Chat
 from chien import Chien
-from plateaux import Plateau1 as plateau
+
+plateau = Plateau()
+
 # minou est une instance de type Chat
 minou = Chat(0)
+plateau.afficher([minou])
 
 plateau.afficher([minou])
 # A Faire 1 : Faire avancer le chat de 3 cases
