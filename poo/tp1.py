@@ -6,8 +6,10 @@ plateau = Plateau()
 
 # minou est une instance de type Chat
 minou = Chat(0)
-plateau.afficher([minou])
 
-plateau.afficher([minou])
 # A Faire 1 : Faire avancer le chat de 3 cases
 # A Faire 2: Faire reculer le chat de 2 cases
+
+
+
+plateau.afficher([minou])
